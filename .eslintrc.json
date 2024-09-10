@@ -1,0 +1,7 @@
+{
+  "extends": ["next", "plugin:import/errors", "plugin:import/warnings"],
+  "plugins": ["import"],
+  "rules": {
+    "import/no-unused-modules": [1, {"unusedExports": true}]
+  }
+}
